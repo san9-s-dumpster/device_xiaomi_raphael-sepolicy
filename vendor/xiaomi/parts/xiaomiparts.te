@@ -38,3 +38,9 @@ allow xiaomiparts {
 
 # Allow xiaomiparts to write to mi_thermald
 allow xiaomiparts sysfs_thermal:file w_file_perms;
+
+# Allow xiaomiparts to find hal_touchfeature_xiaomi_hwservice
+allow xiaomiparts hal_touchfeature_xiaomi_hwservice:hwservice_manager find;
+
+# Allow binder communication with hal_touchfeature_xiaomi_default
+binder_call(xiaomiparts, hal_touchfeature_xiaomi_default)
