@@ -2,4 +2,4 @@
 /vendor/bin/hw/vendor\.lineage\.livedisplay@2\.0-service\.raphael    u:object_r:hal_lineage_livedisplay_qti_exec:s0
 
 # HBM
-/sys/devices/platform/soc/soc:qcom,dsi-display-primary/hbm           u:object_r:vendor_sysfs_hbm:s0
+/sys/devices/platform/soc/soc:qcom,dsi-display-primary/fod_hbm_en           u:object_r:vendor_sysfs_hbm:s0
