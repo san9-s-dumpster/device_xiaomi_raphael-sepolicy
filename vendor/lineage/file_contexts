@@ -3,3 +3,6 @@
 
 # HBM
 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/fod_hbm_en           u:object_r:vendor_sysfs_hbm:s0
+
+# FlickerFree
+/sys/devices/platform/soc/soc:qcom,dsi-display-primary/dimlayer_bl                                                                                       u:object_r:vendor_sysfs_graphics:s0
